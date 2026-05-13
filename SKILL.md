@@ -1,10 +1,11 @@
 ---
 name: baokim-api
 description: >
-  Hỗ trợ tích hợp Baokim Disbursement API (chi hộ) cho JavaScript/TypeScript/PHP.
+  Hỗ trợ tích hợp Baokim Disbursement API (chi hộ) cho JavaScript/TypeScript/PHP và Laravel.
   Dùng skill này bất cứ khi nào người dùng đề cập đến: Baokim, baokim API, chi hộ baokim,
   chuyển tiền ngân hàng tự động, disbursement payment, verify tài khoản ngân hàng,
   transfer money baokim, kiểm tra số dư baokim, tích hợp cổng thanh toán baokim,
+  Laravel module Baokim, BaokimService Laravel, tích hợp Baokim vào Laravel,
   hoặc bất kỳ tác vụ nào liên quan đến Baokim API.
   LUÔN dùng skill này khi hỏi về baokim hoặc chiho.baokim.vn.
 ---
@@ -115,3 +116,15 @@ Một số ngân hàng phổ biến:
 | 970422 | MB Bank |
 | 970423 | TPBank |
 | 971025 | Ví MoMo |
+
+## Laravel Module
+
+Khi người dùng muốn tích hợp vào Laravel, đọc các file:
+
+| Chủ đề | File |
+|--------|------|
+| Cấu trúc module & setup tổng quan | `laravel/module-structure.md` |
+| BaokimService — service chính | `laravel/service.md` |
+| Migration & Model | `laravel/model-migration.md` |
+| Controller & Routes | `laravel/controller-routes.md` |
+| Queue Job xử lý async | `laravel/queue-job.md` |
